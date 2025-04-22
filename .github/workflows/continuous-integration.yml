@@ -10,3 +10,6 @@ jobs:
 
       - name: Build C# code
         run: dotnet build
+
+      - name: Test C# code
+        run: dotnet test
