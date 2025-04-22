@@ -19,3 +19,8 @@ jobs:
           cd DotnetTemplate.Web
           npm install
           npm run build
+
+      - name: Run linter and tests for TS code
+        run: |
+          npm run lint
+          npm t
