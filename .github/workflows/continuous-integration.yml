@@ -22,5 +22,6 @@ jobs:
 
       - name: Run linter and tests for TS code
         run: |
+          cd DotnetTemplate.Web
           npm run lint
           npm t
